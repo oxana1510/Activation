@@ -1,0 +1,493 @@
+@font-face {
+	font-family: "GothamBold";
+	font-display: swap;
+	font-style: normal;
+	font-weight: bold;
+	src: url("../fonts/GothamBold.eot?") format("eot"), url("../fonts/GothamBold.woff2") format("woff2"), url("../fonts/GothamBold.woff") format("woff"), url("../fonts/GothamBold.ttf") format("truetype"), url("../fonts/GothamBold.svg#Gotham") format("svg"); 
+}
+
+@font-face {
+	font-family: "Gotham";
+	font-display: swap;
+	font-style: normal;
+	font-weight: 500;
+	src: url("../fonts/Gotham-Book.eot?") format("eot"), url("../fonts/Gotham-Book.woff2") format("woff2"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype"), url("../fonts/Gotham-Book.svg#Gotham") format("svg"); 
+}
+
+* {
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: text;
+}
+
+html{
+	font-size: 10px;
+	overflow-x: hidden; 
+}
+
+body {
+	font-family: "Gotham", Helvetica, Arial, sans-serif;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden; 
+	background: #fff;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.btn:active:focus,
+.btn:focus,
+button:active:focus,
+button:focus,
+a:focus,
+input:focus {
+	outline: none; 
+}
+
+img {
+	max-width: 100%;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	list-style: none;
+}
+
+/*=============Header===============*/
+.main-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 2.5rem;
+	z-index: 1000;
+	background: #000;	
+h1{
+	font: 3rem/1  "GothamBold";
+	font-weight: 700;
+	color: #fefefa;
+@media screen and (max-width: 576px){
+	font-size: 2rem;
+}
+span{
+	color: #20cd00;
+}
+}
+h2{
+	color: #fefefa;
+}
+}
+.btn-top{
+	background: #189b00;
+	color: #fcfdfd;
+	font: 700 2.3rem "GothamBold";
+	padding: 1rem 5rem;
+	letter-spacing: 0.025rem;
+    white-space: nowrap;
+@media screen and (max-width: 576px){
+	padding: 1rem 3rem;
+	font-size: 1.5rem;
+}
+}
+a.btn-top:hover{
+	color: #fcfdfd;
+	background: #189b00 *1.2;
+}
+
+/*=============Main===============*/
+/*=============Products===============*/
+
+.title-block{
+	padding: 6.5rem 1rem 4rem;
+	max-width: 900px;
+h2{
+	font-size: 4.5rem;
+span{
+	font-family: "GothamBold";
+}
+.tex-color{
+	color: #189b00;
+}
+}
+}
+
+.buy{
+	padding: 5.5rem 1rem 3.5rem;
+	background: #f8f8f8;
+h3{
+	font: 4rem "GothamBold";
+}
+h4{
+	color: #189b00;
+	font-size: 2.9rem;
+	font-weight: 600;
+	margin-bottom: 5rem;
+}
+.container-fluid{
+	max-width: 985px;
+.item{
+	-webkit-box-shadow: 0 0 0.7rem 0.1rem rgba(0, 0, 0, 0.49);
+	        box-shadow: 0 0 0.7rem 0.1rem rgba(0, 0, 0, 0.49);
+&:nth-of-type(2){
+	position: relative;
+	z-index: 3;
+	background: #fcf6c2;
+}
+&:last-child,
+&:first-child{
+	
+img{
+	width: auto;
+	height: 41rem;
+}
+}
+.item__head{
+	background: #ed8d21;
+	-webkit-box-shadow: inset 0 -0.6rem 0.8rem rgba(87, 56, 3, 0.35);
+	        box-shadow: inset 0 -0.6rem 0.8rem rgba(87, 56, 3, 0.35);
+	color: #fff;
+	color: #fcfbfd;
+	font: 3.3rem "GothamBold";
+	letter-spacing: 0.013rem;
+&:nth-of-type(1){
+	font-size: 2.2rem;
+}
+}
+.item__quantity{
+	font-size: 2rem;
+}
+.item__price{
+	font: 2.4rem "GothamBold";
+}
+.item__priceynew{
+	color: #ed8d21;
+	font: 2.4rem "GothamBold";
+}
+p{
+	padding: 0 3rem;
+}
+.item__btn{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+a{
+	font: 2.3rem "GothamBold";
+	letter-spacing: 0.025rem;
+	color: #fcfdfd;
+	background: #5dd02a;
+	padding: 1.3rem 4.5rem;
+&:hover{
+	background: #5dd02a * 1.2;
+}
+}
+}
+}
+}
+}
+.buy .container-fluid .item:last-child .item__btn{
+	margin-top: 1.5rem;
+}
+@media screen and (max-width: 992px){
+.buy .container-fluid .item .item__btn a{
+	letter-spacing: 0.025rem;
+	padding: 1.3rem 4rem;
+	white-space: nowrap;
+}	
+}
+.card-block{
+	max-width: 975px;
+	margin-top: 2rem;
+p{
+	font-size: 2.3rem;
+	font-weight: 700;
+}
+}
+
+/*=============Block Icon===============*/
+.block-icon{
+	background: #ed8d21;
+	padding: 2.5rem 0;
+.container-fluid{
+	max-width: 535px;
+p{
+	font-size: 1.3rem
+}
+}
+}
+
+/*=============Block How It Works…===============*/
+
+.howitworks{
+	background: url(../img/howitworks.jpg) no-repeat right center;
+@media screen and (max-width: 1099px){
+	background-size: 50%;
+	background-position: right bottom;
+}
+@media screen and (max-width: 992px){
+	background-size: 60%;
+}
+@media screen and (max-width: 576px){
+	background-size: 75%;
+}
+.container-fluid{
+	max-width: 967px;
+	padding-top: 6rem;
+	padding-bottom: 4.4rem;
+@media screen and (max-width: 992px){
+	padding-bottom: 18.4rem;
+}
+h2{
+	font-size: 3rem;
+	margin-bottom: 2.5rem;
+	font-weight: 600;
+}
+p{
+	font-size: 1.8rem;
+	font-weight: bold;
+	letter-spacing: 0.013rem;
+	line-height: 2.241rem;
+	margin-bottom: 3.5rem;
+}
+span{
+	font: 2.9rem "GothamBold";
+@media screen and (max-width: 768px){
+	font-size: 2.5rem;
+}
+}
+p:last-child{
+	font-family: "GothamBold";
+}
+.way-item{
+	margin: 4rem 0;
+span{
+	margin-right: 3.5rem;
+@media screen and (max-width: 768px){
+	margin-right: 1rem;
+}
+}
+span:last-child{
+	margin-right: 0;
+}
+img{
+	display: inline;
+	vertical-align: bottom;
+	margin-right: 3.5rem;
+@media screen and (max-width: 768px){
+	margin-right: 1rem;
+	width: 40px;
+	height: auto;
+}
+}
+}
+}
+}
+
+/*=============Block Corianderoil===============*/
+.corianderoil{
+	background: url(../img/corianderoil.jpg) no-repeat center top;
+	background-size: cover;
+@media screen and (max-width: 576px){
+	background-position: left bottom;
+}
+.container-fluid{
+	max-width: 985px;
+	padding: 5.5rem 0 3.5rem 0;
+	line-height: 3rem;
+h2{
+	color: #4eb421;
+	font: 2.9rem "GothamBold";
+	margin-bottom: 2.5rem;
+}
+p{
+	font-size: 2.2rem;
+	font-weight: 600;
+	margin-bottom: 3.5rem;
+span{
+	color: #4eb421;
+	font-family: "GothamBold";
+}
+}
+.corianderoil-list{
+li{
+	font: 2.2rem "GothamBold";
+	margin-bottom: 2.5rem;
+}
+}
+}
+}
+
+/*=============Block Title===============*/
+.block-title{
+	background: #ed8d21;	
+h2{
+	padding: 65px 0 55px 0;
+	max-width: 732px;
+	font: 3.2rem "GothamBold";
+	line-height: 3.741rem;
+}
+}
+/*=============Block Flaxoil===============*/
+.flaxoil{
+.container{
+	padding-top: 5.5rem;
+	padding-bottom: 5.5rem;
+	line-height: 3.141rem;
+p{
+	font-size: 2.2rem;
+	font-weight: 600;
+span{
+	color: #4eb421;
+	font-family: "GothamBold";
+}
+}
+ul{
+h4{
+	font: 2.2rem "GothamBold";
+}
+p{
+span{
+	color: #000;
+}
+}
+}
+.text-bottom{
+	color: #ed8d21;
+	font: 3.2rem "GothamBold";
+	margin-top: 5.5rem;
+}
+.img-flaxoil{
+	height: auto;
+}
+}
+}
+
+/*=============Block Perfect===============*/
+.perfect{
+	background: url(../img/perfect.jpg) no-repeat;
+	background-size: cover;
+.container-fluid{
+	padding-top: 5rem;
+	padding-bottom: 7rem;
+	max-width: 112.5rem;
+	color: #fefbfb;
+	line-height: 3.9rem;
+h2{
+	font: 3.6rem "GothamBold";
+@media screen and (max-width: 576px){
+	font-size: 3.3rem;
+}
+}
+p{
+	font-size: 2.8rem;
+@media screen and (max-width: 576px){
+	font-size: 2.5rem;
+}
+}
+}
+}
+
+
+/*=============Block Discover===============*/
+.discover{
+.container{
+	padding-bottom: 4.5rem;
+h2{
+	font: 3.6rem "GothamBold";
+	color: #ed8d21;
+}
+ul{
+	color: #58585a;
+	line-height: 2.9rem;
+	font-size: 2.2rem;
+	-webkit-column-count: 2;
+              column-count: 2;
+@media screen and (max-width: 768px){
+	-webkit-column-count: 1;
+              column-count: 1;
+}
+li{
+	letter-spacing: -0.015rem;
+	font-weight: 600;
+	margin-bottom: 3.5rem;
+	page-break-inside: avoid;
+	break-inside: avoid;
+span{
+	display: block;
+	font-family: "GothamBold";
+}
+}
+}
+}
+}
+
+/*=============Block Guarantee===============*/
+.guarantee-bg{
+	background: #f7f7f6;
+	color: #282828;
+	font-size: 2.5rem;
+	line-height: 3.644rem;
+.guarantee{
+	max-width: 1050px;
+h2{
+	color: #fd8d1a;
+	font: 3.5rem "GothamBold";
+}
+span{
+	font-family: "GothamBold";
+}
+}
+}
+/*=============Block Footer===============*/
+.bg-footer{
+	background: #444242;
+.container-fluid{
+	font-size: 1.6rem;
+	font-weight: 100;
+	line-height: 3.041rem;
+	color: #fcfafa;
+ul{
+	max-width: 450px;
+li{
+a{
+	color: #fcfafa;
+	position: relative;
+&:after{
+	content:"|";
+	position: absolute;
+	right: -0.8rem;
+}
+&:hover{
+	color: #efefc9;
+}
+&:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+}
+&:nth-of-type(4) a:after,
+&:nth-of-type(5) a:after{
+	display: none;
+}
+}
+}
+}
+}
